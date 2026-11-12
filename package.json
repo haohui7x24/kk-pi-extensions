@@ -1,0 +1,14 @@
+{
+  "name": "kk-pi-extensions",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal extensions for the Pi coding agent",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/*/index.ts"
+    ]
+  }
+}
